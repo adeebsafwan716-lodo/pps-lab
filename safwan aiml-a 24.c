@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a,n,result;
+printf("enter a number");
+scanf("%d",&a);
+printf("enter shift position");
+result=a>>n;
+printf("right shift result=%d",result);
+return 0;
+}
